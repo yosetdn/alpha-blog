@@ -14,7 +14,7 @@
  *= require_self
  */
 
-$navbar-default-bg: #08088A;
+$navbar-default-bg: BLACK;
 #logo{
   float:left;
   font-size: 1.7em;
@@ -26,6 +26,46 @@ $navbar-default-bg: #08088A;
 #logo:hover{
   color:#fff;
   text-decoration: none;
+}
+.center{
+  text-align: center;
+}
+.jumbotron{
+  background-image: asset-url("asd.jpg");
+  background-size: cover;
+  height: 550px;
+}
+.jumbotron h1{
+  color:WHITE !important;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.btn-xlarge{
+  font-size: 1.7em;
+  background-color: black !important;
+  border-color: black !important;
+}
+.btn-xlarge:hover{
+  background-color: GRAY !important;
+}
+.footer{
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color:#777;
+}
+.footer small{
+  float: left;
+}
+.footer ul{
+  float: right;
+  list-style: none;
+}
+.footer ul li{
+  float: left;
+  margin-left: 15px;
 }
 
  @import "bootstrap-sprockets";
